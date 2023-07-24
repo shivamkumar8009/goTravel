@@ -1,0 +1,408 @@
+.searchDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center!important;
+    /* background: whitesmoke; */
+    border-radius: 5px;    
+    /*  box-shadow:10px 10px 5px 0px rgba(0,0,0,.096) */
+    font-family: sans-serif;
+    margin-left: 10px;
+    height:10vh;
+    padding: 5px;
+    margin-top: 5px;
+}
+.Search{
+    margin-right: 10px;
+    margin-bottom: 20px !important;
+}
+
+
+.exploreDiv{
+    font-family: sans-serif;
+    width: fit-content;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    margin : 0 1rem;
+    border-radius: 10px;
+    border: none !important;
+    background: whitesmoke;
+     box-shadow:10px 10px 5px 0px rgba(0,0,0,.096)
+ }
+ 
+ 
+.abcd{
+    display: block;
+    justify-content: center !important;
+    font-family: sans-serif;
+}
+
+.exploreHeading h1{
+    margin-left: 375px !important;
+}
+
+.contentDiv{
+    margin: 0 5rem;
+    background:none !important;
+    overflow-y: scroll;
+}
+/* .contentDiv:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  } */
+
+
+
+.hrTag{
+    width: 60rem;
+    height: 0.2rem;
+    background: black;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.searchItem{
+    border:2px solid lightgrey;
+    background: white;
+    width: fit-content !important;
+    padding: 5px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*  box-shadow:10px 10px 5px 0px rgba(0,0,0,.096) */
+}
+
+.siImg{
+    width: 200px;
+    height:200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    object-fit:cover ;
+    border-radius: 20px;
+}
+
+.siDesc{
+    max-width: 190px;
+    margin-bottom: 1px;
+    border-right:3px solid lightgrey;
+}
+
+.siTitle h2{
+    color:#0071c2;
+    text-decoration:none;
+}
+.siDetails{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.silocation{
+    background-color: #008009;
+    color: white ;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+    max-width: 250px;
+}
+
+
+.siRating{
+ display: flex;
+ justify-content: space-between;
+}
+
+.siRating span{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.siRating p{
+    background-color: #003580;
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+
+.siDetailTexts{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+.siPrice{
+    font-size: 15px;
+}
+.siTaxOp{
+    font-size:13px;
+    color:gray;
+}
+.siCheckButton{
+    background-color: #F75940;
+    color: white;
+    font-weight: bold;
+    padding:10px 10px;
+    border:none;
+    border-radius: 5px;
+    width:6rem;
+}
+.siCheckButton:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+
+.co{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+.abcde{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputCity {
+    width: 97%;
+   
+}
+
+.siDesc2{
+    max-width: 150px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    border-right:3px solid lightgrey;
+    padding: 10px;
+}
+
+.siTitle2{
+    font-size: 15px;
+}
+.sihills2{
+    font-size: 15px;
+}
+.sirooms2{
+    font-size: 15px;
+}
+.sidistance2{
+    font-size: 15px;
+}
+.sicancel2{
+    font-size: 15px;
+    color: #008009;
+}
+.sifacilities{
+    font-size: 13px;
+}
+
+.SearchHotel{
+    justify-content: center !important;
+}
+
+.filterSection{
+    justify-content: center !important;
+    margin:5px;
+    padding: 5px;
+    display: block !important;
+    gap: 5px;
+    background: whitesmoke;
+    width: 180px !important;
+    height:65vh;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-between;
+     box-shadow:10px 10px 5px 0px rgba(0,0,0,.096)
+}
+
+.inputCity{
+  width: 13.2rem;
+  height: 25px;
+  padding: 5px;
+  border: 2px solid #ccc
+  
+  
+}
+.inputCity:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.check{
+    width:13rem;
+    height: 25px;
+    padding: 5px;
+    border: 2px solid #ccc
+    
+}
+.check:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.inputRooms{
+  width: 8.8rem;
+  height: 20px;
+  padding: 5px;
+  border: 5px solid #ccc
+  
+}
+.inputRooms:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.inputRating{
+    width: 10rem;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    margin-left: 12px;
+    border-radius: 15px;
+}
+.inputRating:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.siCouple{
+    width: 10rem;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    margin-left: 12px;
+    border-radius: 15px;  
+}
+.siCouple:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.siDistanceAp{
+    width: 10rem;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    margin-left: 12px; 
+    border-radius: 15px;
+}
+.siDistanceAp:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+.siAbcd{
+    display:flex;
+    justify-content: center!important;
+
+}
+.filter{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sortButton{
+    background-color: #F75940;
+    color: white;
+    font-weight: bold;
+    padding:10px 10px;
+    border:none;
+    border-radius: 5px;
+    width: 200px;
+    justify-content: center!important;
+    margin-top:40px;
+    margin-left:730px;
+    
+}
+.sortButton:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .clearButton{
+    background-color:#F75940;
+    color: white;
+    font-weight: bold;
+    padding:10px 10px;
+    border:none;
+    border-radius: 5px;
+    width: 160px;
+    justify-content: center!important;
+    margin-top:5px;
+    margin-left: 12px;
+  }
+  .clearButton:hover {
+    transform: scale(1.1);
+    background-color:#87CEEB;
+    transition: transform 0.3s ease-in-out;
+  }
+
+@media only screen and (max-width: 600px) {
+   
+    .searchDiv {
+        margin-left: 5px;
+        height: 20vh;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+   
+    .searchDiv {
+        margin-left: 20px;
+        height: 15vh;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .exploreDiv {
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    .exploreDiv {
+      height: 50vh;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    
+    .exploreDiv {
+      height: 60vh;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contentDiv {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contentDiv {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .filterSection {
+        flex-direction: column;
+        align-items: center;
+    }
+}

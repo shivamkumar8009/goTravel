@@ -1,0 +1,51 @@
+.container4 {
+  background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  max-width: 1500px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.head h1 {
+  font-size: 36px;
+  text-align: center;
+  color:black;
+  background: none !important;
+}
+
+.mai {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  height: 50vh;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.sec {
+  margin-bottom: 20px;
+}
+
+.htwo {
+  font-size: 26px;
+  color: #333;
+}
+
+.parag {
+  font-size: 20px;
+  color: #555;
+}
+.about-us-para{
+  color: #212529;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}

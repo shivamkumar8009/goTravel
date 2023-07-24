@@ -1,0 +1,138 @@
+.container{
+  padding:10px;
+  display:flex;
+  margin-top: 0.2rem;
+  gap: 0.1rem;
+  font-family: sans-serif;
+  background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover; 
+ background-position: center;
+ background-repeat: no-repeat; 
+ max-width: 1500px !important;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 20px;
+ padding-right: 20px;
+ height: 80vh;
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* align-items: center; */
+}
+
+.profile{
+  flex:0.3;
+  display:flex;
+  /* justify-content:center; */
+  
+ 
+}
+.profileCard{
+  border:2px solid lightGrey;
+  height: 20rem;
+  background-color: white;
+  padding: 30px;
+  border-radius:10px;
+  padding-left:70px;
+  padding-right:70px;
+  display:flex;
+  flex-direction:column;
+   justify-content:center;
+  align-items:center;
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,.096)
+  
+}
+.profileCard img{
+  height:150px;
+  width:150px;
+  border-radius:75px;
+ 
+}
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  background-color: #F75940;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: inherit;
+  z-index: -1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.button2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formNew{
+  flex:0.4;
+  
+  
+}
+
+.formContent{
+  border:2px solid lightGrey;
+  padding: 30px;
+  border-radius:10px;
+  padding-left:70px;
+  padding-right:70px;
+  width:100%;
+  background-color: white;
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,.096)
+}
+
+.formInput{
+  display:flex;
+}
+
+.formInput input{
+  width:100%;
+  border-radius:10px;
+  border:2px solid lightgrey;
+  padding:10px;
+}
+
+.formInput p{
+  width:100px;
+}
+
+.submitButton {
+  margin-left: 6.5rem;
+  /* gap: 1rem; */
+}
+.formInput5 {
+  display:flex;
+  width:210px !important;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem !important;
+  border-radius:10px;
+  border:2px solid lightgrey;
+  padding:10px
+}
+
+.inputcss6{
+  width:190px !important;
+}

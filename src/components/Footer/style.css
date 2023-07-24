@@ -1,0 +1,28 @@
+.footer{
+    /* background: #423F3E;   */
+    /* box-shadow: 0 2px 4px -1px rgba(0,0,0,1); */
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-family: sans-serif;
+    /* border-top: 2px solid lightgray; */
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.footer-btn{
+    color: whitesmoke;
+   background: #f75940 !important;
+   height: 3rem;
+   width: 10rem;
+   font-weight: bold;
+   font-family: sans-serif;
+   border: none;
+   border-radius: 1.5rem;
+   transition: 0.4s;
+   cursor: pointer;
+  }
